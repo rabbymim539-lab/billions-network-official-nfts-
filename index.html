@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Billions Network</title>
+
+  <!-- 🌐 Favicon -->
+  <link rel="icon" type="image/png" href="https://i.ibb.co/m53mpCSy/IMG-20250929-204151.jpg">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #d9f2ff, #e6f7ff, #f0fbff);
+      color: #0b1220;
+      line-height: 1.6;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* ✨ Animated Glowing Background */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0;
+      width: 200%; height: 200%;
+      background: radial-gradient(circle at 30% 20%, rgba(0,166,255,0.15), transparent 50%),
+                  radial-gradient(circle at 70% 80%, rgba(0,0,255,0.15), transparent 60%),
+                  radial-gradient(circle at 80% 30%, rgba(255,255,255,0.1), transparent 50%);
+      animation: glowMove 12s infinite linear alternate;
+      z-index: -1;
+    }
+    @keyframes glowMove {
+      0% { transform: translate(0, 0) scale(1); }
+      100% { transform: translate(-10%, -10%) scale(1.1); }
+    }
+
+    h1 {
+      font-size: 42px;
+      font-weight: bold;
+      margin: 20px 0;
+      text-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    h2 {
+      font-size: 32px;
+      font-weight: bold;
+      margin-top: 40px;
+      margin-bottom: 16px;
+    }
+
+    img.logo {
+      margin-top: 20px;
+      width: 180px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    a.join-btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 24px;
+      background: linear-gradient(90deg, #0066ff, #00a3ff);
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: transform 0.2s;
+    }
+    a.join-btn:hover { transform: scale(1.05); }
+
+    .logo-anim {
+      width: 200px;
+      height: auto;
+      margin: 20px auto;
+      animation: float 4s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }
+
+    p {
+      max-width: 800px;
+      margin: 0 auto 20px auto;
+      font-size: 18px;
+    }
+    ul {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: left;
+      font-size: 18px;
+    }
+    ul li { margin: 8px 0; }
+
+    .buy-section {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+    .buy-card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      width: 300px;
+    }
+    .buy-card h3 { font-size: 24px; margin-bottom: 12px; }
+    .buy-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 12px 20px;
+      background: linear-gradient(90deg, #0066ff, #00a3ff);
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: transform 0.2s;
+    }
+    .buy-btn:hover { transform: scale(1.05); }
+
+    section {
+      background: rgba(255,255,255,0.6);
+      backdrop-filter: blur(6px);
+      padding: 30px 20px;
+      margin-top: 40px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    footer {
+      background: transparent;
+      padding: 15px;
+      text-align: center;
+      font-size: 14px;
+      color: #555;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to Billions Network</h1>
+  <img class="logo" src="https://i.ibb.co/m53mpCSy/IMG-20250929-204151.jpg" alt="Billions Network Logo">
+  <div>
+    <a class="join-btn" href="https://signup.billions.network/sign-in" target="_blank">Join Now</a>
+  </div>
+
+  <section>
+    <h1>Billions Genesis NFT 1st Collection</h1>
+    <img class="logo-anim" src="https://i.ibb.co/8gnfdz8y/1000034170-removebg-preview.png" alt="Genesis NFT Logo">
+    <h2>Genesis NFT Overview</h2>
+    <p>
+      Billions is the human and AI network built on mobile-first verification to scale the internet of value.
+      With accessibility and privacy at the forefront, Billions provides a decentralized and scalable
+      alternative to existing proof of humanity solutions.
+    </p>
+    <p>
+      Billions Genesis is the first NFT drop created by Billions Network on Polygon. Before we reach billions
+      of humans and AI agents, we’re starting with the first Billionaires – the founding humans belonging to
+      the foundation of the Billions community.
+    </p>
+    <p>Now on Magic Eden, your favorite NFT marketplace!</p>
+
+    <div class="buy-section">
+      <div class="buy-card">
+        <h3>Magic Eden</h3>
+        <a class="buy-btn" href="https://magiceden.io/collections/polygon/billions-genesis" target="_blank">Buy Now</a>
+      </div>
+      <div class="buy-card">
+        <h3>OpenSea</h3>
+        <a class="buy-btn" href="https://opensea.io/collection/billions-genesis" target="_blank">Buy Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h1>Billions Supermasks NFT</h1>
+    <img src="https://i.ibb.co/p6T9xCdH/IMG-20250930-210156.jpg" alt="Billions Supermasks Logo" width="250">
+    <p>
+      Our 2nd official NFT collection is here: <strong>Billions Supermasks</strong>.
+      Each Supermask represents a unique human. In a world where bots, deepfakes, and AI clones blur reality,
+      your Supermask is your new identity superpower.
+    </p>
+
+    <!-- Countdown -->
+    <div id="countdown-section">
+      <p>📆 Save the date: <strong>Monday 6th October, 13:00 UTC</strong></p>
+      <div style="display:flex;justify-content:center;gap:10px;">
+        <div style="background:#fff;padding:12px;border-radius:8px;"><div id="sm-days">00</div><small>Days</small></div>
+        <div style="background:#fff;padding:12px;border-radius:8px;"><div id="sm-hours">00</div><small>Hours</small></div>
+        <div style="background:#fff;padding:12px;border-radius:8px;"><div id="sm-mins">00</div><small>Mins</small></div>
+        <div style="background:#fff;padding:12px;border-radius:8px;"><div id="sm-secs">00</div><small>Secs</small></div>
+      </div>
+    </div>
+
+    <!-- Mint Now Button -->
+    <div id="mint-now" style="display:none;margin-top:20px;">
+      <a href="https://opensea.io/collection/billions-supermasks" target="_blank"
+         style="padding:14px 28px;background:linear-gradient(90deg,#0066ff,#00a3ff);
+                color:#fff;text-decoration:none;font-size:18px;font-weight:bold;
+                border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.2);">
+        🚀 Mint Now
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Join Billions Community</h2>
+    <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:15px;">
+      <a href="https://x.com/billions_ntwk" target="_blank" style="padding:12px 20px;background:#1DA1F2;color:white;text-decoration:none;font-weight:bold;border-radius:8px;">Follow Billions</a>
+      <a href="https://twitter.com/i/communities/1952378952506323258" target="_blank" style="padding:12px 20px;background:#00acee;color:white;text-decoration:none;font-weight:bold;border-radius:8px;">Join Yeppers</a>
+      <a href="https://discord.gg/billions-ntwk" target="_blank" style="padding:12px 20px;background:#5865F2;color:white;text-decoration:none;font-weight:bold;border-radius:8px;">Discord</a>
+      <a href="https://x.com/jgonzalezferrer" target="_blank" style="padding:12px 20px;background:#1DA1F2;color:white;text-decoration:none;font-weight:bold;border-radius:8px;">Follow Javi</a>
+      <a href="https://x.com/0xrabbysheikh" target="_blank" style="padding:12px 20px;background:#1DA1F2;color:white;text-decoration:none;font-weight:bold;border-radius:8px;">Follow Me</a>
+    </div>
+  </section>
+
+  <footer>© 2025 Billions Network | Made by Rabby Sheikh</footer>
+
+  <script>
+    const smDate = new Date("2025-10-06T13:00:00Z").getTime();
+
+    function updateCountdown(){
+      const now = Date.now();
+      let diff = smDate - now;
+
+      if(diff <= 0){
+        document.getElementById("countdown-section").style.display = "none";
+        document.getElementById("mint-now").style.display = "block";
+        return;
+      }
+
+      const d = Math.floor(diff/(1000*60*60*24)); diff -= d*(1000*60*60*24);
+      const h = Math.floor(diff/(1000*60*60)); diff -= h*(1000*60*60);
+      const m = Math.floor(diff/(1000*60)); diff -= m*(1000*60);
+      const s = Math.floor(diff/1000);
+
+      document.getElementById('sm-days').textContent = String(d).padStart(2,'0');
+      document.getElementById('sm-hours').textContent = String(h).padStart(2,'0');
+      document.getElementById('sm-mins').textContent = String(m).padStart(2,'0');
+      document.getElementById('sm-secs').textContent = String(s).padStart(2,'0');
+    }
+
+    setInterval(updateCountdown,1000);
+    updateCountdown();
+  </script>
+</body>
+</html>
